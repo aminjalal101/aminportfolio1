@@ -26,7 +26,7 @@ const Projects = () => {
         <ProjectCard
           src="/image.png"
           title="Spotube"
-          description="React Youtube clone the has multiple options to choose from sidebar and video streaming options."
+          description="Modern YouTube Clone Application in React JS with Material UI 5."
         />
       </div>
     </div>
