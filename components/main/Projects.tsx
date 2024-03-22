@@ -25,8 +25,8 @@ const Projects = () => {
         />
         <ProjectCard
           src="/image.png"
-          title="Shoppy Admin Dashboard"
-          description="React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban."
+          title="Spotube"
+          description="React Youtube clone the has multiple options to choose from sidebar and video streaming options."
         />
       </div>
     </div>
