@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 
@@ -10,21 +11,22 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 " >
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/NextWebsitee.png"
+          title="3D Iphone Website"
+          description="This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS."
+
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/CardImagee.png"
+          title="BrainWave-UI/UX"
+          description="Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles ."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/image.png"
+          title="Shoppy Admin Dashboard"
+          description="React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban."
         />
       </div>
     </div>
